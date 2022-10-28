@@ -1,0 +1,7 @@
+package ex3;
+
+public class PhoneNumberAlreadyExists extends RuntimeException {
+    PhoneNumberAlreadyExists() {
+        System.out.print("PhoneNumberAlreadyExists");
+    }
+}
